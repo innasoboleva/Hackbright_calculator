@@ -42,7 +42,10 @@ def mod(num1, num2):
 
 
 def add_three(num1, num2, num3):
-    """Return sum of first two numbers and multiplies it with third."""
+    """Return the sum of first two numbers which is multiplied with third number."""
     return (num1 + num2) * num3
 
 
+def sum_of_cubes(num1, num2):
+    """Return the sum of cubes of two numbers."""
+    return (num1**3) + (num2**3)
